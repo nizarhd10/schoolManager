@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import java.util.List;
 
 @Entity
+@DiscriminatorValue("STUDENT")
 public class Student extends AppUser {
 
     private String numeroAppoge;
